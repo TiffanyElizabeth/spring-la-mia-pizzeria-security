@@ -14,3 +14,10 @@ INSERT INTO ingredients (id, name) VALUES (NULL, 'Fresh Basil');
 INSERT INTO ingredients (id, name) VALUES (NULL, 'Spicy Salami');
 INSERT INTO ingredients (id, name) VALUES (NULL, 'Mushrooms');
 INSERT INTO ingredients (id, name) VALUES (NULL, 'Olives');
+INSERT INTO users (username, password) VALUES ('testadmin', '{noop}123456');
+INSERT INTO users (username, password) VALUES ('testuser', '{noop}123456');
+INSERT INTO roles (name) VALUES ('ADMIN');
+INSERT INTO roles (name) VALUES ('USER');
+INSERT INTO role_user (user_id, role_id) VALUES (1, 1);
+INSERT INTO role_user (user_id, role_id) VALUES (2, 2);
+
