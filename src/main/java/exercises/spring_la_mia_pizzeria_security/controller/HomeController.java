@@ -9,7 +9,7 @@ import org.springframework.ui.Model;
 @RequestMapping
 public class HomeController {
     @GetMapping
-    public String bestYear(Model model) {
+    public String home(Model model) {
         return "home";
     }
 
